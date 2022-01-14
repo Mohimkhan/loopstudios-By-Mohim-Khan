@@ -403,6 +403,7 @@ footer{
     display: flex;
     margin-bottom: 1em;
     justify-content: center;
+    gap: 1rem;
 }
 
 .social-links img{

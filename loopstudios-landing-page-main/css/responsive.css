@@ -1,0 +1,162 @@
+@media only screen and (min-width:950px){
+    /* #################
+      Header-section
+    ################## */
+    nav{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .text{
+        max-width: 621px;
+    }
+
+    .p-style{
+        font-size: 4.8rem;
+      
+    }
+
+    .center-to-end{
+        width: 90%;
+        top: 40%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    /* #################
+      Feature-section
+    ################## */
+    .features{
+        flex-direction: row;
+        position: relative;
+        overflow: hidden;
+    }
+    .column1{
+        width: 83%;
+        position: relative;
+    }
+    .column2{
+        width: 52%;
+        max-width: 52%;
+        text-align: left;
+        padding-inline: 5.8em;
+        padding-top: 4.875em;
+        position: absolute;
+        left: 48%;
+        bottom: 0;
+    }
+    .h-style{
+        margin: 0;
+        margin-bottom: 0.5em;
+        font-size: 3rem;
+        max-width: 367px;
+    }
+   /* #################
+      Creations-section
+    ################## */
+    .creations{
+        height: 907px;
+    }
+    .creation-lists{
+        grid-template-columns: repeat(auto-fit,minmax(20%,1fr));
+        place-items: stretch;
+    }
+    
+    .img-height{
+        min-height: 400px;
+    }
+    .img-height:hover {
+        transform: translateY(-30px);
+    }
+    .heading {
+        justify-content: flex-start;
+        margin-bottom: 4em;
+    }
+    .btn{
+        position: absolute;
+        top: 4px;
+        bottom: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* #################
+      Footer-section
+    ################## */
+    footer{
+        padding-top: 4em;
+        height: 28vh;
+    }
+    .footer-content{
+        width: 90%;
+        max-width: 1200px;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 13vh;
+    }
+    .logo{
+        margin-bottom: 1.5em;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 4em;
+    }
+    .link ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+    }
+    .link ul li{
+        margin-right: 2em;
+        margin-bottom: 0;
+    }
+    .link ul li:last-of-type{
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .link ul li a{
+        color: var(--clr-primary-100);
+        font-weight: 400;
+        font-size: 1rem;
+        font-family: var(--font-f);
+    }
+    .social-content{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .social-links{
+        display: flex;
+        margin-bottom: 1.5em;
+        justify-content: end;
+    }
+    .social-links img{
+        margin-right: 1em;
+    }
+    .social-links img:last-of-type{
+        margin-right: 0;
+    }
+    .copyright{
+        color: var(--clr-primary-400);
+        font-family: var(--font-f);
+    }
+    /* #################
+      Menu-section
+    ################## */
+    #menu{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:830px){
+    .creations{
+        max-height: 977px;
+    }
+}

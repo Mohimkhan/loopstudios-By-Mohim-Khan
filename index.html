@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Loopstudios</title>
 </head>
 
@@ -50,10 +51,10 @@
     </div>
   </header>
   <div class="features">
-    <div class="column1">
+    <div class="column1" data-aos="slide-left">
       <img src="/images/desktop/image-interactive.jpg" alt="man">
     </div>
-    <div class="column2">
+    <div class="column2" data-aos="fade-right" data-aos-delay="50">
       <h1 class="h-style">The leader in interactive VR</h1>
       <p class="p-style-c"> Founded in 2011, Loopstudios has been producing world-class virtual reality
         projects for some of the best companies around the globe. Our award-winning
@@ -129,6 +130,12 @@
     </div>
   </footer>
   <script src="/JS/App.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+   AOS.init({
+    offset: 350
+   });
+  </script>
 </body>
 
 </html>
